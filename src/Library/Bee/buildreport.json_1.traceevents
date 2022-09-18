@@ -1,0 +1,761 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1662640057085424, "dur": 433266, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662640057085700, "dur": 17618, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662640057103320, "dur": 403094, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662640057506417, "dur": 12270, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662640057519102, "dur": 32, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1662640057123502, "dur":797, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057124308, "dur":194, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1662640057124541, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1662640057124570, "dur":479, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1662640057125078, "dur":673, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057125751, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491647, "dur":161, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491808, "dur":104, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491912, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491921, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491938, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491941, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491949, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491951, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491958, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491961, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491968, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491970, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491976, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491978, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057491985, "dur":37, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057492022, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057492030, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057492032, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057492038, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057492040, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057492046, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057492048, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057492054, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057492056, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057492063, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057492074, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057492100, "dur":1728, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662640057125021, "dur":736, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057125759, "dur":2070, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057127845, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662640057127846, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057127896, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662640057127898, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057127987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057131886, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662640057132476, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1662640057132514, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057132531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057132535, "dur":68193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1662640057200745, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057200762, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057200783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057200789, "dur":25875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057226684, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057226711, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057226816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057226826, "dur":21526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057248373, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057248393, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057248417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057248424, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057249012, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057249025, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057249048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057249053, "dur":20958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057270030, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057270049, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057270071, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057270077, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057270761, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057270813, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057270836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057270841, "dur":22802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057293659, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057293676, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057293698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057293705, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057294317, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057294330, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057294354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057294361, "dur":21160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057315536, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057315556, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057315578, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057315584, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057318089, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057318108, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057318157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057318164, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057319077, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057319097, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057319120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662640057319127, "dur":58037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662640057377188, "dur":114459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057125336, "dur":471, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057125807, "dur":2040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057127847, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1662640057127889, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057127966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057128754, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1662640057130385, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1662640057130399, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057130430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057130716, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1662640057131402, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1662640057131425, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057131445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057131452, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1662640057132146, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057132181, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057132206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057132239, "dur":66255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057198514, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057198532, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057198560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057198780, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057199597, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057199610, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057199648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057199653, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057200229, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057200247, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057200264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057200272, "dur":96338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057296627, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057296643, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057296668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057296676, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057298409, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057298426, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057298454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057298464, "dur":52398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057350878, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057350909, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057350932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057350938, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057352560, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057352583, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057352612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057352621, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057353504, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057353519, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057353544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057353550, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057354295, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057354309, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057354349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057354356, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057357482, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057357495, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057357515, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057357520, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057358160, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057358258, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057358282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057358287, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057358906, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057359054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057359061, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662640057359864, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1662640057359996, "dur":528, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057360531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057360711, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1662640057361282, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1662640057361304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057361320, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1662640057362292, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1662640057362312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057362318, "dur":578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1662640057362907, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1662640057362925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662640057362930, "dur":128663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1662640057491606, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1662640057491608, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057125058, "dur":704, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057125762, "dur":2073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057127841, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1662640057127891, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057127962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057128747, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1662640057130449, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1662640057130468, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057130571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057130593, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1662640057131180, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662640057131196, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057131211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057131216, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662640057131878, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1662640057131895, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057131942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057131948, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1662640057132861, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games).exe" }}
+,{ "pid":12345, "tid":3, "ts":1662640057132875, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057132905, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057132908, "dur":66248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games).exe" }}
+,{ "pid":12345, "tid":3, "ts":1662640057199171, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057199186, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057199204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057199208, "dur":38056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057237280, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057237296, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057237316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057237324, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057237836, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057237853, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057237871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057237896, "dur":524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057238432, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057238447, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057238467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057238473, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057240092, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057240105, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057240123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057240128, "dur":20656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057260799, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057260819, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057260840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057260847, "dur":21550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057282412, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057282427, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057282450, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057282457, "dur":66887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057349360, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057349375, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057349400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057349407, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057349967, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057349979, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057350023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057350029, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057350920, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057350936, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057350954, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057350957, "dur":524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057351492, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057351506, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057351522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057351543, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057352613, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057352626, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057352654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057352660, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057353574, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057353589, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057353610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057353616, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057355358, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057355370, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057355390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057355395, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057357005, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057357020, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057357044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057357071, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057358217, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057358229, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057358247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057358252, "dur":5251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662640057363516, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662640057363535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057363539, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662640057364759, "dur":781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1662640057365541, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057365568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057365574, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1662640057366225, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662640057366245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057366250, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662640057367759, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662640057367785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057367794, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662640057368613, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1662640057368631, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057368643, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1662640057370722, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1662640057370754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057370765, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1662640057371562, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662640057371584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057371593, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662640057373313, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1662640057373334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662640057373341, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1662640057374208, "dur":117432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057125361, "dur":451, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057125812, "dur":2025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057127840, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1662640057127893, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057127979, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057131565, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1662640057132302, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057132346, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057132370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057132374, "dur":66189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057198581, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057198607, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057198694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057198787, "dur":21929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057220731, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057220745, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057220766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057220774, "dur":22976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057243765, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057243783, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057243805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057243810, "dur":32611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057276437, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057276452, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057276476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057276484, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057277148, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057277166, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057277229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057277237, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057277975, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057277989, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057278013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057278019, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057278702, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057278781, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057278809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057278816, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057279689, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057279702, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057279724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057279730, "dur":57293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057337042, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057337056, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057337076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662640057337082, "dur":51691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662640057388790, "dur":102862, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057125150, "dur":624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057125774, "dur":2071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057127845, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662640057127900, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057127998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057136746, "dur":62352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662640057199146, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057199165, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057199185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057199191, "dur":29092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057228297, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057228312, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057228331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057228338, "dur":91828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057320184, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057320303, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057320330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057320337, "dur":3289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057323640, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057323653, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057323673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057323699, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057324634, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057325100, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057325135, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057325142, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057326252, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057326351, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057326382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057326390, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057327021, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057327116, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057327162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057327168, "dur":506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057327684, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057327764, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057327829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057327834, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057328680, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057328775, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057328827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057328833, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057329546, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057329633, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057329727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057329732, "dur":521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057330264, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057330343, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057330367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057330372, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057331027, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057331111, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057331135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057331141, "dur":464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057331617, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057331698, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057331772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057331777, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057332578, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057332722, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057332778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057332785, "dur":630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057333429, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057333559, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057333588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057333595, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057334701, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057334801, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057334826, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057334832, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057335344, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057335357, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057335381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057335386, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057335877, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057336207, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057336231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057336236, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057337244, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057337259, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057337282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057337287, "dur":36202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662640057373501, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1662640057373583, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057373612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662640057373616, "dur":517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1662640057374148, "dur":117498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057125176, "dur":605, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057125781, "dur":2059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057127843, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1662640057127885, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057127993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057136322, "dur":143605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1662640057279944, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057279964, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057279984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057279989, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057280657, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057280670, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057280687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057280692, "dur":21289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057302009, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057302026, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057302051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057302059, "dur":42268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057344342, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057344357, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057344380, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057344386, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057345013, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057345026, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057345046, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057345051, "dur":5301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057350371, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057350386, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057350413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057350420, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057351447, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057351459, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057351477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057351482, "dur":2337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057353841, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057353856, "dur":1122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057354984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057354991, "dur":9083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662640057364091, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1662640057364400, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057364453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057364460, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1662640057365139, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1662640057365165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057365171, "dur":4562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1662640057369755, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1662640057369777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057369785, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1662640057370737, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1662640057370766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662640057370772, "dur":3994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1662640057374781, "dur":116870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057125204, "dur":582, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057125786, "dur":2047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057127840, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1662640057127900, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057127964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057128755, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1662640057130424, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1662640057130441, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057130462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057130570, "dur":577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1662640057131161, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1662640057131183, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057131200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057131206, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1662640057132015, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057132056, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057132085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057132222, "dur":66083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057198326, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1662640057198368, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057198400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057198599, "dur":9779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1662640057208396, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057208414, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057208438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057208446, "dur":24309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057232770, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057232789, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057232811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057232820, "dur":23849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057256688, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057256707, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057256735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057256743, "dur":22176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057278935, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057278953, "dur":1176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057280156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057280162, "dur":22589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057302767, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057302790, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057302812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057302818, "dur":51505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057354336, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057354348, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057354371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057354377, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057355791, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057355804, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057355826, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057355832, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057356949, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057356972, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057356999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057357006, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057358775, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057358790, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057358814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057358820, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057359801, "dur":14272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057374103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662640057374479, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662640057375661, "dur":116003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057125235, "dur":555, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057125790, "dur":2062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057127852, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1662640057127894, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057128011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057136810, "dur":61924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1662640057198750, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057198771, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057198806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057198873, "dur":45133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057244023, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057244057, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057244080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057244085, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057244706, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057244718, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057244738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057244743, "dur":86975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057331731, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057332232, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057332262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057332268, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057333475, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057333584, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057333612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057333617, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057334769, "dur":758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057335527, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057335553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057335558, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057337613, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057337626, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057337646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662640057337651, "dur":98064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662640057435727, "dur":55926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057125275, "dur":519, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057125795, "dur":2049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057127844, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1662640057127892, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057128040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057137706, "dur":61208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1662640057198940, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057198958, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057199016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057199021, "dur":40177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057239212, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057239495, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057239520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057239527, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057240318, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057240333, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057240402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057240407, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057241019, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057241032, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057241053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057241058, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057242609, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057242625, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057242644, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057242649, "dur":707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057243368, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057243384, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057243403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057243409, "dur":469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057243888, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057243903, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057243921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057243926, "dur":21631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057265573, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057265590, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057265614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057265642, "dur":20829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057286483, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057286497, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057286516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057286523, "dur":34685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057321221, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057321563, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057321588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057321595, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057322368, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057322928, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057322959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057322967, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057324101, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057324299, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057324329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057324334, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057325011, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057325103, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057325228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057325234, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057325996, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057326118, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057326145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057326151, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057326823, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057326915, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057326945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057326952, "dur":554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057327516, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057327630, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057327652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057327658, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057328676, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057328773, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057328824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057328831, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057329436, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057329525, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057329549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057329554, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057330126, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057330239, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057330264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057330269, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057330816, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057331436, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057331464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057331483, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057332874, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057332973, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057333018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057333024, "dur":515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057333550, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057333974, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057334129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057334134, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057335156, "dur":1047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057336204, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057336233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057336238, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057337659, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057337672, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057337698, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662640057337706, "dur":77361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662640057415079, "dur":76564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057125301, "dur":498, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057125799, "dur":2046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057127846, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1662640057127909, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057128024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057137210, "dur":61539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1662640057198765, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057198789, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057198872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057198877, "dur":41338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057240229, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057240247, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057240268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057240274, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057241629, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057241643, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057241664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057241669, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057242290, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057242307, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057242326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057242332, "dur":21882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057264230, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057264246, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057264268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057264276, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057264912, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057264928, "dur":4287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057269225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057269235, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057270131, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057270148, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057270170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057270176, "dur":47372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057317565, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057317582, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057317608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662640057317616, "dur":122126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662640057439755, "dur":51894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057125330, "dur":473, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057125803, "dur":2045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057127851, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1662640057127911, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057128015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057137015, "dur":61583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1662640057198617, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662640057198637, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057198711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057198810, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662640057199434, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662640057199453, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057199479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057199485, "dur":27931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662640057227433, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662640057227453, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057227473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057227480, "dur":58987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662640057286482, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662640057286497, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057286516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057286523, "dur":24632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662640057311172, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662640057311185, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057311207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057311215, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662640057313114, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662640057313130, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057313152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662640057313159, "dur":64049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662640057377223, "dur":114432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662640057125094, "dur":675, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662640057125770, "dur":2071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662640057127844, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1662640057127897, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662640057128035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662640057137459, "dur":174799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1662640057312284, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662640057312306, "dur":2498, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662640057314814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662640057314822, "dur":62399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Game/Galcon(MaxFun Games)/Galcon(MaxFun Games)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662640057377242, "dur":114416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662640057494984, "dur":2395, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1662640057519197, "dur": 1254, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662640057519079, "dur": 1404, "ph": "X", "name": "Write chrome-trace events", "args": {} },
